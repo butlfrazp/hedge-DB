@@ -1,0 +1,25 @@
+{
+  "name": "stock-api",
+  "version": "1.0.0",
+  "description": "Amasses financial data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec 'npm test'",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": "6.9.5"
+  },
+  "author": "Paul Butler",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.3",
+    "mongoose": "^5.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
